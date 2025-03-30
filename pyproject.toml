@@ -43,7 +43,7 @@ content-type = "text/markdown"
 Homepage = "https://github.com/uburuntu/yaweather"
 Download = "https://github.com/uburuntu/yaweather/archive/master.zip"
 
-[project.optional-dependencies]
+[dependency-groups]
 dev = [
     "codecov>=2.0",
     "pytest>=5.4",
