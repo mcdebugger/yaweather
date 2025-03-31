@@ -4,7 +4,6 @@ from pydantic import BaseModel, ConfigDict
 
 
 class Base(BaseModel):
-    
     model_config = ConfigDict(extra='allow', use_enum_values=True)
 
 
